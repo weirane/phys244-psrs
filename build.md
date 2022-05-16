@@ -9,6 +9,8 @@ module load mpip
 module load libunwind
 ```
 
+Install mpiP locally to get the `libmpiP.so` file.
+
 Compile and run:
 ```sh
 make

@@ -1,0 +1,54 @@
+mpiP: Found MPIP environment variable [-y]
+mpiP: 
+mpiP: mpiP V3.5.0 (Build Apr 19 2022/15:31:54)
+mpiP: 
+sorting 1250000 elements
+56.400584 ms
+mpiP: 
+mpiP: Storing mpiP output in [./psrs.4.44894.1.mpiP].
+mpiP: 
+mpiP: Found MPIP environment variable [-y]
+mpiP: 
+mpiP: mpiP V3.5.0 (Build Apr 19 2022/15:31:54)
+mpiP: 
+sorting 2500000 elements
+64.320718 ms
+mpiP: 
+mpiP: Storing mpiP output in [./psrs.8.44961.1.mpiP].
+mpiP: 
+mpiP: Found MPIP environment variable [-y]
+mpiP: 
+mpiP: mpiP V3.5.0 (Build Apr 19 2022/15:31:54)
+mpiP: 
+sorting 5000000 elements
+95.177635 ms
+mpiP: 
+mpiP: Storing mpiP output in [./psrs.16.45066.1.mpiP].
+mpiP: 
+mpiP: Found MPIP environment variable [-y]
+mpiP: 
+mpiP: mpiP V3.5.0 (Build Apr 19 2022/15:31:54)
+mpiP: 
+sorting 10000000 elements
+133.835922 ms
+mpiP: 
+mpiP: Storing mpiP output in [./psrs.32.45224.1.mpiP].
+mpiP: 
+mpiP: Found MPIP environment variable [-y]
+mpiP: 
+mpiP: mpiP V3.5.0 (Build Apr 19 2022/15:31:54)
+mpiP: 
+sorting 20000000 elements
+215.383968 ms
+mpiP: 
+mpiP: Storing mpiP output in [./psrs.64.45490.1.mpiP].
+mpiP: 
+mpiP: Found MPIP environment variable [-y]
+mpiP: 
+mpiP: mpiP V3.5.0 (Build Apr 19 2022/15:31:54)
+mpiP: 
+sorting 40000000 elements
+1429.290451 ms
+mpiP: 
+mpiP: Storing mpiP output in [./psrs.128.45978.1.mpiP].
+mpiP: 

@@ -1,6 +1,8 @@
 CFLAGS = -Wall -O3 -g
 CXXFLAGS = -Wall -O3 -g
 LDFLAGS = -L$(HOME)/.local/lib -lmpiP -lmpi
+CC := mpicc
+CXX := mpicxx
 
 psrs: CC=$(CXX)
 psrs: merge.o psrs.o main.o

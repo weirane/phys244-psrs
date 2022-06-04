@@ -1,0 +1,21 @@
+#!/bin/bash
+#SBATCH --job-name="psrs"
+#SBATCH --output="psrs.%j.%N.out"
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=128
+#SBATCH --partition=compute
+#SBATCH --account=csd453
+#SBATCH -t 00:05:00
+#SBATCH --mem=20G
+#SBATCH --export=ALL
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/.local/lib
+export MPIP='-y'
+
+for x in 4 8 16 32 64 128; do
+    # strong scaling test
+    srun --mpi=pmi2 -n "$x" ./psrs test/40m.in 40000000
+
+    # weak scaling test
+    # srun --mpi=pmi2 -n "$x" ./psrs test/40m.in $((312500*x))
+done

@@ -20,8 +20,6 @@ cp /expanse/lustre/projects/csd453/wangrc/libmpiP.so ~/.local/lib
 
 Generate test data and compile:
 ```sh
-mkdir test
-seq 40000000 | shuf >test/40m.in
 make
 ```
 
